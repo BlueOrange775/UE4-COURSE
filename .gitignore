@@ -62,3 +62,5 @@ Intermediate/*
 DerivedDataCache/*
 BuildingEscape/Saved/Logs/BuildingEscape.log
 BuildingEscape/Saved/AutoScreenshot.png
+BuildingEscape/Saved/Logs/BuildingEscape.log
+*.log
