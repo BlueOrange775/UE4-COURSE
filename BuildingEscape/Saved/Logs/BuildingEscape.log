@@ -307,3 +307,1275 @@ LogInit: Object subsystem initialized
 [2017.03.18-19.11.43:442][503]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.272
 [2017.03.18-19.11.43:442][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
 [2017.03.18-19.11.59:651][439]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.18-19.11.59:685][439]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.03.18-19.19.11:042][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.03.18-19.19.12:240][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.03.18-19.19.20:790][113]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.03.18-19.19.48:424][807]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.18-19.19.48:448][807]LightingResults: New page: Lighting Build
+[2017.03.18-19.19.48:448][807]LoadErrors: New page: Loading map: Template_Default.umap
+[2017.03.18-19.19.48:452][807]MapCheck: New page: Map Check
+[2017.03.18-19.19.48:452][807]LightingResults: New page: Lighting Build
+[2017.03.18-19.19.48:469][807]LogAIModule: Creating AISystem for world Untitled_1
+[2017.03.18-19.19.48:472][807]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.18-19.19.48:475][807]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.18-19.19.48:486][807]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.18-19.19.48:509][807]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.547ms to complete.
+[2017.03.18-19.19.48:510][807]LogFileHelpers: Loading map 'Template_Default' took 0.087
+[2017.03.18-19.20.03:921][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mian" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Mian.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.18-19.20.03:949][712]LogSavePackage: Save=18.31ms
+[2017.03.18-19.20.03:949][712]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Mian9AE476BA47AE13A6503BE0BD761B5B22.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Mian.umap'
+[2017.03.18-19.20.03:950][712]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Mian.umap
+[2017.03.18-19.20.03:964][712]LogFileHelpers: Saving map 'Mian' took 0.405
+[2017.03.18-19.20.03:965][712]Cmd: MAP LOAD FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Mian.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.18-19.20.03:978][712]LightingResults: New page: Lighting Build
+[2017.03.18-19.20.03:978][712]LoadErrors: New page: Loading map: Mian.umap
+[2017.03.18-19.20.03:978][712]MapCheck: New page: Map Check
+[2017.03.18-19.20.03:978][712]LightingResults: New page: Lighting Build
+[2017.03.18-19.20.04:006][712]LogAIModule: Creating AISystem for world Mian
+[2017.03.18-19.20.04:023][712]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.18-19.20.04:035][712]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.18-19.20.04:056][712]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 21.275ms to complete.
+[2017.03.18-19.20.04:056][712]LogFileHelpers: Loading map 'Mian' took 0.092
+[2017.03.18-19.20.09:201][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.18-19.20.09:222][304]LogSavePackage: Save=14.70ms
+[2017.03.18-19.20.09:222][304]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Main623271D84928C4E8AA845FBDF9DA625D.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap'
+[2017.03.18-19.20.09:225][304]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap
+[2017.03.18-19.20.09:233][304]LogFileHelpers: Saving map 'Main' took 0.058
+[2017.03.18-19.20.17:814][191]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.03.18-19.20.17:893][193]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
+
+[2017.03.18-19.20.17:893][193]LogTemp:Display: CWD: D:\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.03.18-19.20.17:893][193]LogTemp:Display: Initial Dir: D:\Epic Games\4.14
+
+[2017.03.18-19.20.17:893][193]LogTemp:Display: Env CWD: D:\Epic Games\4.14\Engine\Binaries\DotNet\IOS
+
+[2017.03.18-19.20.17:895][193]LogTemp:Display: BranchPath = KYLE-PC/D/Epic Games/4.14/Engine/Binaries --- GameBranchPath = KYLE-PC/D/Epic Games/4.14/Engine/Binaries
+
+[2017.03.18-19.20.17:930][193]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Kyle.Kyle-PC\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.03.18-19.20.17:930][193]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.03.18-19.20.17:930][193]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.03.18-19.20.17:930][193]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.03.18-19.20.17:930][193]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.03.18-19.20.17:930][193]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.03.18-19.20.19:823][416]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:835][417]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:843][418]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:850][419]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:859][420]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:869][421]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:876][422]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:884][423]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:893][424]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:901][425]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:909][426]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:917][427]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:925][428]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:934][429]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:942][430]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:950][431]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:959][432]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:967][433]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:976][434]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:983][435]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.19:992][436]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:000][437]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:009][438]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:017][439]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:026][440]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:035][441]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:042][442]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:050][443]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:059][444]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:067][445]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:076][446]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:083][447]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:092][448]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:100][449]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:109][450]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:117][451]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:125][452]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:133][453]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:142][454]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:150][455]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:158][456]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:167][457]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:175][458]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:183][459]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:192][460]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:200][461]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:209][462]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:217][463]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:225][464]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:234][465]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:242][466]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:250][467]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:258][468]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:267][469]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:276][470]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:284][471]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:293][472]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:300][473]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:310][474]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:317][475]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:325][476]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:334][477]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:342][478]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:350][479]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:359][480]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:367][481]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:375][482]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:384][483]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:392][484]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:401][485]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:409][486]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:417][487]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:425][488]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:434][489]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:443][490]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:450][491]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:458][492]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:467][493]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:475][494]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:485][495]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:493][496]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:501][497]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:509][498]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:517][499]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:525][500]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:534][501]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:542][502]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:550][503]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:559][504]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:568][505]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:575][506]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:584][507]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:592][508]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:600][509]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:609][510]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:617][511]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:626][512]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:633][513]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:642][514]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:651][515]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:659][516]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:667][517]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:675][518]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:684][519]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:692][520]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:701][521]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:709][522]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:718][523]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:726][524]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:734][525]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:742][526]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:750][527]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:759][528]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:767][529]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:776][530]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:784][531]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:792][532]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:801][533]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:810][534]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:817][535]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:825][536]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:833][537]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:842][538]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:850][539]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:858][540]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:868][541]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:893][542]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:911][543]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:919][544]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:927][545]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:937][546]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:945][547]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:953][548]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:962][549]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:970][550]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:978][551]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:987][552]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.20:995][553]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:003][554]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:012][555]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:020][556]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:029][557]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:037][558]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:045][559]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:054][560]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:063][561]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:071][562]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:079][563]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:087][564]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:096][565]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:105][566]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:112][567]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:120][568]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:129][569]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:137][570]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:145][571]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:153][572]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:162][573]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:170][574]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:179][575]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:188][576]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:197][577]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:204][578]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:212][579]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:221][580]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:230][581]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:237][582]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:245][583]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:253][584]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:262][585]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:270][586]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:279][587]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:287][588]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:296][589]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:303][590]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:311][591]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:320][592]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:329][593]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:337][594]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:345][595]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:353][596]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:362][597]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:370][598]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:379][599]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:387][600]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:396][601]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:404][602]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:412][603]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:420][604]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:431][605]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:438][606]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:446][607]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:454][608]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:463][609]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:471][610]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:479][611]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:487][612]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:496][613]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:504][614]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:514][615]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:521][616]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:531][617]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:538][618]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:547][619]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:556][620]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:564][621]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:573][622]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:580][623]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:589][624]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:598][625]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:605][626]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:613][627]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:622][628]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:630][629]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:639][630]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:648][631]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:656][632]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:665][633]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:672][634]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:681][635]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:689][636]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:699][637]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:705][638]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:714][639]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:722][640]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:731][641]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:738][642]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:747][643]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:755][644]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:764][645]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:772][646]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:780][647]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:789][648]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:797][649]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:806][650]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:813][651]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:822][652]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:831][653]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:839][654]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:847][655]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:855][656]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:864][657]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:872][658]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:880][659]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:889][660]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:897][661]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:905][662]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:914][663]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:923][664]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:930][665]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:938][666]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:947][667]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:955][668]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:964][669]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:972][670]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:980][671]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:988][672]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.21:998][673]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:006][674]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:014][675]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:022][676]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:030][677]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:038][678]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:047][679]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:056][680]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:064][681]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:072][682]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:080][683]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:089][684]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:097][685]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:105][686]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:114][687]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:122][688]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:130][689]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:140][690]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:147][691]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:155][692]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:165][693]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:172][694]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:181][695]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:188][696]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:198][697]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:205][698]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:214][699]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:222][700]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:231][701]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:238][702]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:247][703]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:255][704]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:264][705]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:272][706]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:280][707]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:289][708]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:297][709]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:305][710]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:314][711]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:322][712]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:331][713]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:339][714]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:347][715]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:355][716]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:364][717]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:372][718]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:380][719]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:388][720]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:398][721]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:405][722]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:413][723]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:422][724]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:430][725]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:438][726]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:447][727]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:455][728]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:464][729]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:472][730]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:480][731]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:488][732]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:498][733]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:505][734]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:514][735]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:522][736]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:531][737]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:539][738]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:547][739]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:556][740]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:564][741]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:572][742]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:580][743]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:589][744]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:598][745]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:605][746]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:614][747]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:622][748]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:631][749]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:639][750]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:647][751]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:655][752]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:664][753]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:673][754]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:681][755]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:688][756]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:697][757]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:705][758]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:714][759]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:723][760]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:732][761]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:739][762]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:747][763]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:756][764]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:764][765]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:772][766]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:780][767]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:790][768]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:798][769]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:806][770]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:814][771]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:822][772]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:831][773]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:840][774]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:847][775]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:856][776]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:864][777]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:872][778]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:880][779]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:889][780]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:898][781]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:909][782]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:915][783]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:923][784]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:932][785]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:940][786]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:948][787]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:956][788]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:965][789]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:973][790]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:981][791]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.22:990][792]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:051][793]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:057][794]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:065][795]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:073][796]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:081][797]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:090][798]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:099][799]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:107][800]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:117][801]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:123][802]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:132][803]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:140][804]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:148][805]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:156][806]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:165][807]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:173][808]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:182][809]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:190][810]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:199][811]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:206][812]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:215][813]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:223][814]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:233][815]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:240][816]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:248][817]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:256][818]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:265][819]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:274][820]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:281][821]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:290][822]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:299][823]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:307][824]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:315][825]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:324][826]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:332][827]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:340][828]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:348][829]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:357][830]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:366][831]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:374][832]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:382][833]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:390][834]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:399][835]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:407][836]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:417][837]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:424][838]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:433][839]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:440][840]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:449][841]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:457][842]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:466][843]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:474][844]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:482][845]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:490][846]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:500][847]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:507][848]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:515][849]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:523][850]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:533][851]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:540][852]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:548][853]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:556][854]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:565][855]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:573][856]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:580][857]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:580][857]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:582][857]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:583][857]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:584][857]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:588][858]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:589][858]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:591][858]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:591][858]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:597][859]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:598][859]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:600][859]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:600][859]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:605][860]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:605][860]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:607][860]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:607][860]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:613][861]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:614][861]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:616][861]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:616][861]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:621][862]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:622][862]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:623][862]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:624][862]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:630][863]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:632][863]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:640][864]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:648][865]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:656][866]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:665][867]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:673][868]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:682][869]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:690][870]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:700][871]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:707][872]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:715][873]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:724][874]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:732][875]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:741][876]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:749][877]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:757][878]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:766][879]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:773][880]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:782][881]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:789][882]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:800][883]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:814][884]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:820][885]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:828][886]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:836][887]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:845][888]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:853][889]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:862][890]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:870][891]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:879][892]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:887][893]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:895][894]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:904][895]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:912][896]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:920][897]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:929][898]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:937][899]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:945][900]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:953][901]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:962][902]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:970][903]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:979][904]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:987][905]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.23:995][906]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:003][907]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:011][908]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:020][909]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:028][910]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:036][911]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:045][912]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:054][913]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:062][914]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:070][915]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:078][916]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:087][917]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:095][918]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:104][919]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:112][920]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:120][921]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:129][922]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:154][923]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:169][924]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:178][925]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:187][926]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:195][927]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:203][928]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:212][929]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:220][930]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:229][931]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:236][932]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:245][933]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:253][934]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:262][935]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:270][936]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:278][937]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:286][938]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:295][939]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:303][940]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:312][941]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:321][942]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:329][943]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:337][944]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:344][945]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:353][946]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:361][947]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:369][948]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:378][949]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:387][950]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:395][951]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:403][952]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:412][953]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:419][954]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:429][955]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:436][956]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:445][957]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:453][958]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:462][959]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:470][960]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:478][961]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:486][962]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:495][963]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:503][964]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:511][965]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:520][966]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:529][967]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:536][968]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:545][969]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:553][970]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:562][971]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:570][972]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:579][973]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:587][974]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:595][975]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:603][976]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:612][977]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:620][978]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:629][979]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:637][980]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:646][981]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:654][982]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:662][983]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:671][984]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:679][985]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:687][986]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:695][987]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:703][988]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:712][989]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:720][990]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:729][991]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:736][992]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:745][993]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:753][994]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:763][995]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:771][996]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:778][997]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:787][998]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:796][999]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:803][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:811][  1]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:820][  2]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:829][  3]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:837][  4]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:845][  5]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:855][  6]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:862][  7]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:870][  8]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:878][  9]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:887][ 10]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:896][ 11]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:904][ 12]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:912][ 13]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:921][ 14]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:930][ 15]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:937][ 16]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:945][ 17]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:953][ 18]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:963][ 19]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:970][ 20]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:978][ 21]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:987][ 22]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.24:995][ 23]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:003][ 24]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:012][ 25]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:020][ 26]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:029][ 27]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:037][ 28]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:045][ 29]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:057][ 30]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:063][ 31]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:071][ 32]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:079][ 33]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:088][ 34]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:096][ 35]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:104][ 36]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:112][ 37]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:121][ 38]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:129][ 39]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:182][ 40]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:187][ 41]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:196][ 42]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:204][ 43]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:212][ 44]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:221][ 45]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:230][ 46]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:238][ 47]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:246][ 48]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:254][ 49]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:263][ 50]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:271][ 51]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:279][ 52]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:288][ 53]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:296][ 54]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:305][ 55]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:312][ 56]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:321][ 57]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:329][ 58]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:338][ 59]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:346][ 60]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:354][ 61]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:363][ 62]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:371][ 63]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:380][ 64]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:388][ 65]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:396][ 66]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:405][ 67]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:413][ 68]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:422][ 69]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:430][ 70]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:438][ 71]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:446][ 72]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:454][ 73]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:463][ 74]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:471][ 75]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:480][ 76]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:488][ 77]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:496][ 78]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:505][ 79]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:513][ 80]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:522][ 81]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:530][ 82]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:538][ 83]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:546][ 84]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:555][ 85]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:563][ 86]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:571][ 87]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:579][ 88]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:588][ 89]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:597][ 90]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:605][ 91]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:612][ 92]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:621][ 93]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:631][ 94]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:638][ 95]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:646][ 96]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:655][ 97]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:663][ 98]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:671][ 99]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:679][100]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:688][101]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:696][102]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:704][103]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:714][104]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:721][105]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:730][106]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:738][107]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:746][108]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:755][109]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:763][110]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:771][111]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:779][112]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:788][113]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:797][114]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:805][115]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:813][116]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:821][117]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:830][118]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:838][119]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:846][120]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:855][121]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:863][122]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:872][123]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:880][124]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:888][125]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:897][126]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:905][127]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:913][128]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:921][129]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:931][130]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:938][131]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:946][132]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:954][133]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:963][134]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:971][135]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:979][136]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:988][137]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.25:997][138]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:005][139]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:013][140]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:022][141]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:030][142]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:039][143]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:046][144]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:055][145]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:064][146]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:072][147]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:080][148]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:089][149]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:097][150]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:106][151]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:113][152]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:121][153]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:131][154]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:139][155]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:146][156]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:154][157]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:164][158]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:172][159]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:179][160]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:188][161]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:197][162]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:205][163]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:214][164]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:222][165]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:231][166]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:238][167]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:246][168]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:255][169]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:263][170]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:272][171]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:280][172]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:288][173]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:296][174]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:304][175]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:312][176]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:321][177]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:330][178]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:338][179]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:346][180]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:354][181]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:363][182]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:371][183]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:381][184]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:388][185]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:397][186]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:405][187]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:413][188]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:421][189]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:432][190]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:438][191]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:446][192]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:455][193]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:463][194]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:471][195]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:480][196]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:488][197]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:497][198]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:505][199]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:513][200]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:521][201]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:529][202]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:538][203]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:546][204]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:555][205]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:563][206]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:572][207]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:580][208]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:588][209]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:597][210]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:605][211]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:613][212]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:622][213]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:630][214]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:638][215]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:647][216]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:655][217]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:663][218]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:672][219]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:680][220]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:688][221]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:696][222]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:704][223]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:713][224]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:721][225]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:729][226]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:738][227]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:746][228]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:754][229]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:763][230]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:771][231]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:779][232]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:788][233]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:797][234]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:805][235]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:813][236]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:821][237]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:829][238]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:838][239]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:846][240]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:855][241]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:863][242]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:871][243]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:879][244]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:888][245]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:897][246]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:904][247]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:912][248]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.20.26:921][249]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2017.03.18-19.21.02:356][977]LogContentBrowser: Native class hierarchy updated for 'WebBrowser' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.03.18-19.21.08:599][716]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.03.18-19.21.15:099][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.18-19.21.15:566][529]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.18-19.22.10:854][ 36]LogActorFactory: Actor Factory created SM_Chair
+[2017.03.18-19.22.11:839][151]LogActorFactory: Actor Factory created SM_Chair
+[2017.03.18-19.22.21:995][362]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.03.18-19.22.52:163][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.18-19.22.52:187][958]LogSavePackage: Save=14.67ms
+[2017.03.18-19.22.52:187][958]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Main11C7A22A49B0BF142F90A6BBA685C049.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap'
+[2017.03.18-19.22.52:190][958]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap
+[2017.03.18-19.22.59:650][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2017.03.18-19.23.01:629][ 53]Cmd: DELETE
+[2017.03.18-19.23.01:629][ 53]Cmd: ACTOR DELETE
+[2017.03.18-19.23.01:637][ 53]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.18-19.23.01:644][ 53]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.03.18-19.23.02:130][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.03.18-19.23.02:473][149]Cmd: DELETE
+[2017.03.18-19.23.02:473][149]Cmd: ACTOR DELETE
+[2017.03.18-19.23.02:473][149]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.18-19.23.02:479][149]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.03.18-19.23.08:217][763]LogActorFactory: Actor Factory created SM_GlassWindow
+[2017.03.18-19.23.08:554][801]LogActorFactory: Actor Factory created SM_GlassWindow
+[2017.03.18-19.23.10:802][ 59]Cmd: DELETE
+[2017.03.18-19.23.10:802][ 59]Cmd: ACTOR DELETE
+[2017.03.18-19.23.10:802][ 59]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.18-19.23.10:808][ 59]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.03.18-19.23.15:429][602]LogTexture:Display: Building textures: T_Frame_M (DXT1)
+[2017.03.18-19.23.15:910][602]LogTexture:Display: Building textures: T_Frame_N (BC5)
+[2017.03.18-19.23.16:182][602]LogActorFactory: Actor Factory created SM_WindowFrame
+[2017.03.18-19.23.16:372][624]LogActorFactory: Actor Factory created SM_WindowFrame
+[2017.03.18-19.23.23:118][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.18-19.23.23:695][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.03.18-19.23.24:914][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.18-19.23.27:226][888]LogActorFactory: Actor Factory created SM_GlassWindow
+[2017.03.18-19.23.29:385][140]LogActorFactory: Actor Factory created SM_GlassWindow
+[2017.03.18-19.23.31:176][350]EditorErrors: New page: Actor attachment
+[2017.03.18-19.23.48:971][445]Cmd: DELETE
+[2017.03.18-19.23.48:971][445]Cmd: ACTOR DELETE
+[2017.03.18-19.23.48:972][445]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.18-19.23.48:978][445]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.03.18-19.23.49:416][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2017.03.18-19.23.49:502][505]Cmd: DELETE
+[2017.03.18-19.23.49:502][505]Cmd: ACTOR DELETE
+[2017.03.18-19.23.49:502][505]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.18-19.23.49:508][505]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.03.18-19.23.54:418][ 88]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.03.18-19.24.17:224][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.18-19.24.17:247][809]LogSavePackage: Save=14.50ms
+[2017.03.18-19.24.17:247][809]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/MainF03912994F24242EB0C67388FFCA8445.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap'
+[2017.03.18-19.24.17:249][809]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap
+[2017.03.18-19.24.50:424][757]Cmd: STAT FPS
+[2017.03.18-19.24.55:054][285]MapCheck: New page: Map Check
+[2017.03.18-19.24.55:089][285]LightingResults: New page: Lighting Build - 18 Mar 2017 19:24:55
+[2017.03.18-19.24.55:135][285]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.03.18-19.24.55:224][285]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.03.18-19.24.55:233][285]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.03.18-19.24.55:752][285]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.03.18-19.24.55:752][285]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7624
+[2017.03.18-19.24.58:853][285]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.03.18-19.24.58:854][285]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.03.18-19.24.58:854][285]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.03.18-19.24.58:854][285]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.03.18-19.24.58:854][285]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.03.18-19.24.58:854][285]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.03.18-19.24.59:030][285]LogEditorBuildUtils: Build time 0:03
+[2017.03.18-19.25.00:312][339]Job is a success!
+[2017.03.18-19.25.00:388][340]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.03.18-19.25.00:388][340]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.03.18-19.25.00:388][340]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.03.18-19.25.00:388][340]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.03.18-19.25.00:388][340]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.03.18-19.25.00:388][340]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.03.18-19.25.00:408][340]Lightmass on KYLE-PC: 573 ms total, 55 ms importing, 2 ms setup, 271 ms photons, 223 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 1.41 sec total, 138 ms processing.
+[2017.03.18-19.25.00:422][340]LogStaticLightingSystem: Illumination: 5.31 sec (7 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2017.03.18-19.25.00:423][340]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.03.18-19.25.00:423][340]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.03.18-19.25.00:855][340]DumpUnbuiltLightIteractions
+[2017.03.18-19.25.00:855][340]Lights with unbuilt interactions: 0
+[2017.03.18-19.25.00:855][340]
+[2017.03.18-19.25.00:855][340]Primitives with unbuilt interactions: 0
+[2017.03.18-19.25.00:868][341]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.03.18-19.25.00:868][341]MapCheck: New page: Main - 18 Mar 2017 19:25:00
+[2017.03.18-19.25.00:895][341]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.459ms to complete.
+[2017.03.18-19.25.27:993][541]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.03.18-19.25.50:535][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.18-19.25.50:553][220]LogSavePackage: Save=10.88ms
+[2017.03.18-19.25.50:553][220]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/MainEF75622B46DBCE240B3C969923E2953E.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap'
+[2017.03.18-19.25.50:555][220]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main.umap
+[2017.03.18-19.25.50:565][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main_BuiltData" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main_BuiltData.uasset" SILENT=true
+[2017.03.18-19.25.50:570][220]LogSavePackage: Save=4.04ms
+[2017.03.18-19.25.50:570][220]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Main_BuiltData60D0A7B744EB242B7B70A0B287E24823.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main_BuiltData.uasset'
+[2017.03.18-19.25.50:572][220]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Main_BuiltData.uasset
+[2017.03.18-19.25.52:598][454]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.18-19.25.52:768][455]Cmd: QUIT_EDITOR
+[2017.03.18-19.25.53:533][455]LogExit: Preparing to exit.
+[2017.03.18-19.25.54:152][455]LogExit: Editor shut down
+[2017.03.18-19.25.54:152][455]LogExit: Transaction tracking system shut down
+[2017.03.18-19.25.54:204][455]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.18-19.25.54:204][455]LogExit: Object subsystem successfully closed.
+[2017.03.18-19.25.54:210][455]LogD3D11RHI: Shutdown
+[2017.03.18-19.25.54:210][455]LogD3D11RHI: CleanupD3DDevice
+[2017.03.18-19.25.54:364][455]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.18-19.25.54:368][455]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.18-19.25.54:368][455]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7BE2EBC3-4C0F-398F-F828-69B5052B2AD7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=419fe51945fcf732795b34aa5169b0e2%7Cb453c105f9a24972ac067cb31be36d51%7C7cb4439f-614c-476f-a9fd-fc9ffe665406&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.18-19.25.54:390][455]LogModuleManager: Shutting down and abandoning module WebBrowser (246)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (245)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module NewLevelDialog (244)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (243)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.03.18-19.25.54:409][455]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.03.18-19.25.54:409][455]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.03.18-19.25.54:409][455]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Collections/' was aborted.
+[2017.03.18-19.25.54:409][455]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Developers/Kyle/Collections/' was aborted.
+[2017.03.18-19.25.54:410][455]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Collections/' was aborted.
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.03.18-19.25.54:410][455]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.03.18-19.25.54:411][455]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.03.18-19.25.54:708][455]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.03.18-19.25.54:761][455]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.03.18-19.25.54:762][455]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.03.18-19.25.54:783][455]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.03.18-19.25.54:783][455]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Binaries/Win64' was aborted.
+[2017.03.18-19.25.54:784][455]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.03.18-19.25.54:784][455]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.03.18-19.25.54:784][455]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.03.18-19.25.54:785][455]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.03.18-19.25.54:785][455]LogModuleManager: Shutting down and abandoning module BuildingEscape (104)
+[2017.03.18-19.25.54:785][455]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.03.18-19.25.54:885][455]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.03.18-19.25.54:985][455]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.03.18-19.25.54:986][455]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.03.18-19.25.54:987][455]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.03.18-19.25.54:987][455]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.03.18-19.25.54:987][455]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.03.18-19.25.54:987][455]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.03.18-19.25.54:987][455]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.03.18-19.25.54:987][455]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.03.18-19.25.54:987][455]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.18-19.25.54:987][455]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/' was aborted.
+[2017.03.18-19.25.54:987][455]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.18-19.25.54:988][455]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.18-19.25.55:033][455]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.18-19.25.55:107][455]LogDerivedDataCache: Shutdown
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.18-19.25.55:107][455]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.18-19.25.55:107][455]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.18-19.25.55:108][455]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.18-19.25.55:108][455]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.18-19.25.55:108][455]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.18-19.25.55:108][455]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.18-19.25.55:108][455]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.18-19.25.55:108][455]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.18-19.25.55:109][455]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.18-19.25.55:111][455]LogExit: Exiting.
+[2017.03.18-19.25.55:116][455]Log file closed, 03/18/17 19:25:55
