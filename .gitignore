@@ -60,3 +60,5 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+BuildingEscape/Saved/Logs/BuildingEscape.log
+BuildingEscape/Saved/AutoScreenshot.png

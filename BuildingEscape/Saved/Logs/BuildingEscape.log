@@ -1,0 +1,828 @@
+﻿Log file open, 03/18/17 18:30:21
+LogInit:Display: Running engine for game: BuildingEscape
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(28757858) SRandInit(28757858).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.071860
+LogPluginManager: Loaded Plugin Paper2D, From D:/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.18-18.30.21:953][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.18-18.30.21:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.18-18.30.21:960][  0]LogInit: Computer: KYLE-PC
+[2017.03.18-18.30.21:960][  0]LogInit: User: Kyle
+[2017.03.18-18.30.21:960][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.18-18.30.21:960][  0]LogInit: High frequency timer resolution =3.906244 MHz
+[2017.03.18-18.30.21:961][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.18-18.30.21:961][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.18-18.30.21:961][  0]LogMemory: Process Physical Memory: 264.50 MB used, 264.50 MB peak
+[2017.03.18-18.30.21:961][  0]LogMemory: Process Virtual Memory: 262.73 MB used, 262.73 MB peak
+[2017.03.18-18.30.21:961][  0]LogMemory: Physical Memory: 8559.37 MB used,  7773.16 MB free, 16332.53 MB total
+[2017.03.18-18.30.21:961][  0]LogMemory: Virtual Memory: 676.62 MB used,  7773.16 MB free, 134217728.00 MB total
+[2017.03.18-18.30.22:013][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.18-18.30.22:692][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.18-18.30.22:754][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.03.18-18.30.22:754][  0]LogD3D11RHI:       3958/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.18-18.30.22:755][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.18-18.30.22:755][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.18-18.30.22:755][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.18-18.30.22:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.18-18.30.22:761][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.18-18.30.22:761][  0]LogWindows: EnumDisplayDevices:
+[2017.03.18-18.30.22:761][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.03.18-18.30.22:761][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.03.18-18.30.22:762][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.18-18.30.22:762][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.03.18-18.30.22:762][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.18-18.30.22:762][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.03.18-18.30.22:762][  0]LogD3D11RHI:   Driver Version: 378.49 (internal:21.21.13.7849, unified:378.49)
+[2017.03.18-18.30.22:763][  0]LogD3D11RHI:      Driver Date: 1-20-2017
+[2017.03.18-18.30.22:763][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.18-18.30.22:786][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.18-18.30.22:798][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.18-18.30.22:799][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (E:/UE4-Course/UE4-COURSE/BuildingEscape/Intermediate/Shaders/WorkingDirectory/16924/).
+[2017.03.18-18.30.22:799][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kyle.Kyle-PC/AppData/Local/Temp/UnrealShaderWorkingDir/BAB10CFA40F23CB6B320ECA184D4C83C/'.
+[2017.03.18-18.30.22:799][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.18-18.30.23:931][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.18-18.30.23:972][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.18-18.30.24:015][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.18-18.30.24:070][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.18-18.30.24:124][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.18-18.30.24:182][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.18-18.30.24:244][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.18-18.30.24:292][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.18-18.30.24:330][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.18-18.30.24:376][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.18-18.30.24:420][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.18-18.30.24:459][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.18-18.30.24:505][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.18-18.30.24:556][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.18-18.30.24:605][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.18-18.30.24:695][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.18-18.30.24:695][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.18-18.30.24:724][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.18-18.30.24:791][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.18-18.30.24:819][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.18-18.30.24:863][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.18-18.30.24:900][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.18-18.30.24:937][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.18-18.30.24:984][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.18-18.30.24:984][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.18-18.30.25:275][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.18-18.30.25:340][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Kyle.Kyle-PC/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.18-18.30.25:340][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kyle.Kyle-PC/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.18-18.30.25:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UE4-Course/UE4-COURSE/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.18-18.30.25:340][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.18-18.30.25:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UE4-Course/UE4-COURSE/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.18-18.30.25:340][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.18-18.30.25:359][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.18-18.30.25:372][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kyle.Kyle-PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.18-18.30.25:583][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.18-18.30.25:586][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.18-18.30.25:729][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.18-18.30.25:758][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.18-18.30.25:786][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.18-18.30.25:786][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.18-18.30.25:786][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.18-18.30.26:212][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: buildingescape, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2542623411
+[2017.03.18-18.30.26:262][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.03.18-18.30.26:309][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027857 seconds
+[2017.03.18-18.30.26:317][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.03.18-18.30.26:317][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.03.18-18.30.26:317][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.18-18.30.26:368][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.18-18.30.26:965][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.18-18.30.26:966][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.18-18.30.26:966][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.18-18.30.27:654][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.18-18.30.27:701][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.18-18.30.27:999][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.18-18.30.28:306][  0]SourceControl: Info Source control is disabled
+[2017.03.18-18.30.28:472][  0]SourceControl: Info Source control is disabled
+[2017.03.18-18.30.28:516][  0]SourceControl: Info Source control is disabled
+[2017.03.18-18.30.28:561][  0]SourceControl: Info Source control is disabled
+[2017.03.18-18.30.29:807][  0]LogEngine: Initializing Engine...
+[2017.03.18-18.30.29:809][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.03.18-18.30.30:002][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.18-18.30.30:027][  0]LogInit: XAudio2 using 'Speakers (Logitech G933 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.03.18-18.30.30:050][  0]LogInit: FAudioDevice initialized.
+[2017.03.18-18.30.30:075][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Kyle.Kyle-PC/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.18-18.30.30:082][  0]LogInit: Texture streaming: Enabled
+[2017.03.18-18.30.30:189][  0]LogInit: Transaction tracking system initialized
+[2017.03.18-18.30.30:396][  0]BlueprintLog: New page: Editor Load
+[2017.03.18-18.30.31:002][  0]LocalizationService: Info Localization service is disabled
+[2017.03.18-18.30.31:402][  0]LogConsoleResponse:Display: 
+[2017.03.18-18.30.31:514][  0]LogFileCache: Scanning file cache for directory 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/' took 0.01s
+[2017.03.18-18.30.31:514][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.18-18.30.31:514][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.18-18.30.32:134][  0]SourceControl: Info Source control is disabled
+[2017.03.18-18.30.32:135][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Epic Games/4.14/FeaturePacks/StarterContent.upack)
+[2017.03.18-18.30.32:139][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.03.18-18.30.32:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.03.18-18.30.32:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.03.18-18.30.32:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.03.18-18.30.32:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.03.18-18.30.32:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.03.18-18.30.32:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.03.18-18.30.32:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.03.18-18.30.32:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.03.18-18.30.32:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.03.18-18.30.32:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.03.18-18.30.32:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.03.18-18.30.32:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.03.18-18.30.32:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.03.18-18.30.32:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.03.18-18.30.32:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.03.18-18.30.32:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.03.18-18.30.32:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.03.18-18.30.32:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Fire01.uasset"
+[2017.03.18-18.30.32:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.03.18-18.30.32:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.03.18-18.30.32:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.03.18-18.30.32:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Light01.uasset"
+[2017.03.18-18.30.32:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.03.18-18.30.32:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Light02.uasset"
+[2017.03.18-18.30.32:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.03.18-18.30.32:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.03.18-18.30.32:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.03.18-18.30.32:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.03.18-18.30.32:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.03.18-18.30.32:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.03.18-18.30.32:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.03.18-18.30.32:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.03.18-18.30.32:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.03.18-18.30.32:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Steam01.uasset"
+[2017.03.18-18.30.32:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.03.18-18.30.32:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.03.18-18.30.32:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.03.18-18.30.32:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.03.18-18.30.32:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.03.18-18.30.32:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.03.18-18.30.32:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.03.18-18.30.32:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.03.18-18.30.32:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.03.18-18.30.32:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.03.18-18.30.32:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.03.18-18.30.32:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.03.18-18.30.32:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.03.18-18.30.32:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.03.18-18.30.32:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.03.18-18.30.32:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.03.18-18.30.32:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.03.18-18.30.32:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.03.18-18.30.32:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.03.18-18.30.32:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.03.18-18.30.32:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Maps/StarterMap.umap"
+[2017.03.18-18.30.32:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.03.18-18.30.32:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.03.18-18.30.32:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.03.18-18.30.32:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.03.18-18.30.32:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.03.18-18.30.32:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.03.18-18.30.32:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.03.18-18.30.32:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.03.18-18.30.32:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.03.18-18.30.32:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.03.18-18.30.32:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.03.18-18.30.32:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.03.18-18.30.32:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.03.18-18.30.32:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.03.18-18.30.32:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.03.18-18.30.32:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.03.18-18.30.32:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.03.18-18.30.32:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.03.18-18.30.32:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.03.18-18.30.32:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.03.18-18.30.32:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.03.18-18.30.32:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.03.18-18.30.32:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.03.18-18.30.32:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.03.18-18.30.32:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.03.18-18.30.32:290][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.03.18-18.30.32:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.03.18-18.30.32:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.03.18-18.30.32:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.03.18-18.30.32:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.03.18-18.30.32:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.03.18-18.30.32:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.03.18-18.30.32:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.03.18-18.30.32:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.03.18-18.30.32:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.03.18-18.30.32:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.03.18-18.30.32:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.03.18-18.30.32:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.03.18-18.30.32:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.03.18-18.30.32:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.03.18-18.30.32:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.03.18-18.30.32:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.03.18-18.30.32:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.03.18-18.30.32:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.03.18-18.30.32:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.03.18-18.30.32:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.03.18-18.30.32:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.03.18-18.30.32:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.03.18-18.30.32:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.03.18-18.30.32:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.03.18-18.30.32:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.03.18-18.30.32:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.03.18-18.30.32:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.03.18-18.30.32:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.03.18-18.30.32:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.03.18-18.30.32:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.03.18-18.30.32:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.03.18-18.30.32:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.03.18-18.30.32:325][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.03.18-18.30.32:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.03.18-18.30.32:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.03.18-18.30.32:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.03.18-18.30.32:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.03.18-18.30.32:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.03.18-18.30.32:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset"
+[2017.03.18-18.30.32:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.03.18-18.30.32:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.03.18-18.30.32:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.03.18-18.30.32:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.03.18-18.30.32:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.03.18-18.30.32:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.03.18-18.30.32:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.03.18-18.30.32:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.03.18-18.30.32:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.03.18-18.30.32:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.03.18-18.30.32:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.03.18-18.30.32:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.03.18-18.30.32:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.03.18-18.30.32:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.03.18-18.30.32:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.03.18-18.30.32:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.03.18-18.30.32:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.03.18-18.30.32:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.03.18-18.30.32:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.03.18-18.30.32:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.03.18-18.30.32:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.03.18-18.30.32:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.03.18-18.30.32:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.03.18-18.30.32:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.03.18-18.30.32:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.03.18-18.30.32:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.03.18-18.30.32:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.03.18-18.30.32:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.03.18-18.30.32:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.03.18-18.30.32:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.03.18-18.30.32:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.03.18-18.30.32:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.03.18-18.30.32:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.03.18-18.30.32:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.03.18-18.30.32:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.03.18-18.30.32:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.03.18-18.30.32:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.03.18-18.30.32:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.03.18-18.30.32:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.03.18-18.30.32:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.03.18-18.30.32:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.03.18-18.30.32:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.03.18-18.30.32:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.03.18-18.30.32:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.03.18-18.30.32:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.03.18-18.30.32:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.03.18-18.30.32:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.03.18-18.30.32:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.03.18-18.30.32:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.03.18-18.30.32:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.03.18-18.30.32:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.03.18-18.30.32:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.03.18-18.30.32:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.03.18-18.30.32:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.03.18-18.30.32:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.03.18-18.30.32:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.03.18-18.30.32:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.03.18-18.30.32:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.03.18-18.30.32:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.03.18-18.30.32:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.03.18-18.30.32:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.03.18-18.30.32:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.03.18-18.30.32:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.03.18-18.30.32:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.03.18-18.30.32:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.03.18-18.30.32:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.03.18-18.30.32:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.03.18-18.30.32:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.03.18-18.30.32:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.03.18-18.30.32:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.03.18-18.30.32:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.03.18-18.30.32:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.03.18-18.30.32:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.03.18-18.30.32:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.03.18-18.30.32:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.03.18-18.30.32:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.03.18-18.30.32:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.03.18-18.30.32:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.03.18-18.30.32:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.03.18-18.30.32:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.03.18-18.30.32:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.03.18-18.30.32:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.03.18-18.30.32:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.03.18-18.30.32:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.03.18-18.30.32:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.03.18-18.30.32:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.03.18-18.30.32:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.03.18-18.30.32:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.03.18-18.30.32:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.03.18-18.30.32:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.03.18-18.30.32:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.03.18-18.30.32:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.03.18-18.30.32:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.03.18-18.30.32:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.03.18-18.30.32:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.03.18-18.30.32:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.03.18-18.30.32:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.03.18-18.30.32:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.03.18-18.30.32:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.03.18-18.30.32:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.03.18-18.30.32:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.03.18-18.30.32:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.03.18-18.30.32:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.03.18-18.30.32:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.03.18-18.30.32:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.03.18-18.30.32:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.03.18-18.30.32:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.03.18-18.30.32:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.03.18-18.30.32:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.03.18-18.30.32:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.03.18-18.30.32:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.03.18-18.30.32:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.03.18-18.30.32:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.03.18-18.30.32:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.03.18-18.30.32:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.03.18-18.30.32:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.03.18-18.30.32:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.03.18-18.30.32:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.03.18-18.30.32:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.03.18-18.30.32:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.03.18-18.30.32:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.03.18-18.30.32:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.03.18-18.30.32:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.03.18-18.30.32:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.03.18-18.30.32:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.03.18-18.30.32:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.03.18-18.30.32:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.03.18-18.30.32:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.03.18-18.30.32:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.03.18-18.30.32:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.03.18-18.30.32:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.03.18-18.30.32:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.03.18-18.30.32:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.03.18-18.30.32:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.03.18-18.30.32:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.03.18-18.30.32:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.03.18-18.30.32:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.03.18-18.30.32:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.03.18-18.30.32:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.03.18-18.30.32:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.03.18-18.30.32:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.03.18-18.30.32:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.03.18-18.30.32:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.03.18-18.30.32:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.03.18-18.30.32:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.03.18-18.30.32:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.03.18-18.30.32:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.03.18-18.30.32:855][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.03.18-18.30.32:951][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.03.18-18.30.32:963][  0]LogSavePackage: Save=9.10ms
+[2017.03.18-18.30.32:963][  0]LogSavePackage: Moving 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Floor_400x4008EA4432F4365551F592B3DABD423A220.tmp' to 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.03.18-18.30.32:966][  0]LogSavePackage:Display: Finished SavePackage E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.03.18-18.30.32:967][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.03.18-18.30.32:968][  0]Cmd: MAP LOAD FILE="E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.18-18.30.32:968][  0]LightingResults: New page: Lighting Build
+[2017.03.18-18.30.32:991][  0]MapCheck: New page: Map Check
+[2017.03.18-18.30.32:991][  0]LightingResults: New page: Lighting Build
+[2017.03.18-18.30.33:176][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.03.18-18.30.33:176][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.03.18-18.30.33:182][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.18-18.30.33:183][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.18-18.30.33:204][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 20.964ms to complete.
+[2017.03.18-18.30.33:204][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.236
+[2017.03.18-18.30.33:272][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.18-18.30.33:331][  0]LogCollectionManager: Loaded 0 collections in 0.000697 seconds
+[2017.03.18-18.30.33:404][  0]LogFileCache: Scanning file cache for directory 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Collections/' took 0.01s
+[2017.03.18-18.30.33:404][  0]LogFileCache: Scanning file cache for directory 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Developers/Kyle/Collections/' took 0.01s
+[2017.03.18-18.30.33:404][  0]LogFileCache: Scanning file cache for directory 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Collections/' took 0.01s
+[2017.03.18-18.30.33:404][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.18-18.30.33:413][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2191 classes and 430 folders.
+[2017.03.18-18.30.33:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.18-18.30.33:442][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.18-18.30.33:444][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0013 seconds. Added 13 classes and 0 folders.
+[2017.03.18-18.30.33:491][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.03.18-18.30.33:527][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.03.18-18.30.33:568][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.03.18-18.30.33:606][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.18-18.30.33:613][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.18-18.30.33:687][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2017.03.18-18.30.33:687][  0]LogLoad: (Engine Initialization) Total time: 13.16 seconds
+[2017.03.18-18.30.33:687][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.03.18-18.30.33:687][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.18-18.30.33:687][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.18-18.30.33:696][  0]LogOcInput: OculusInput pre-init called
+[2017.03.18-18.30.33:715][  0]LogAssetRegistry: Asset discovery search completed in 7.4746 seconds
+[2017.03.18-18.30.33:715][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.18-18.30.33:715][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.03.18-18.30.34:826][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.18-18.30.34:940][  0]LogRenderer: Reallocating scene render targets to support 1268x696 NumSamples 1 (Frame:3).
+[2017.03.18-19.04.11:187][711]Cmd: QUIT_EDITOR
+[2017.03.18-19.04.11:242][711]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.18-19.04.11:265][711]LogExit: Preparing to exit.
+[2017.03.18-19.04.11:823][711]LogExit: Editor shut down
+[2017.03.18-19.04.11:824][711]LogExit: Transaction tracking system shut down
+[2017.03.18-19.04.12:021][711]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.18-19.04.12:021][711]LogExit: Object subsystem successfully closed.
+[2017.03.18-19.04.12:047][711]LogD3D11RHI: Shutdown
+[2017.03.18-19.04.12:048][711]LogD3D11RHI: CleanupD3DDevice
+[2017.03.18-19.04.12:180][711]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.18-19.04.12:229][711]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.18-19.04.12:229][711]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB91FD9EB-47F6-6BC3-A9F3-5B945EC46DA9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=419fe51945fcf732795b34aa5169b0e2%7Cb453c105f9a24972ac067cb31be36d51%7C7cb4439f-614c-476f-a9fd-fc9ffe665406&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.18-19.04.12:234][711]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (242)
+[2017.03.18-19.04.12:235][711]LogModuleManager: Shutting down and abandoning module CrashTracker (241)
+[2017.03.18-19.04.12:235][711]LogModuleManager: Shutting down and abandoning module SceneOutliner (240)
+[2017.03.18-19.04.12:236][711]LogModuleManager: Shutting down and abandoning module WidgetCarousel (239)
+[2017.03.18-19.04.12:236][711]LogModuleManager: Shutting down and abandoning module AddContentDialog (238)
+[2017.03.18-19.04.12:238][711]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.03.18-19.04.12:242][711]LogModuleManager: Shutting down and abandoning module GameplayTags (237)
+[2017.03.18-19.04.12:242][711]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.03.18-19.04.12:242][711]LogModuleManager: Shutting down and abandoning module CollectionManager (235)
+[2017.03.18-19.04.12:244][711]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Collections/' was aborted.
+[2017.03.18-19.04.12:244][711]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/Developers/Kyle/Collections/' was aborted.
+[2017.03.18-19.04.12:244][711]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Saved/Collections/' was aborted.
+[2017.03.18-19.04.12:244][711]LogModuleManager: Shutting down and abandoning module StatsViewer (234)
+[2017.03.18-19.04.12:244][711]LogModuleManager: Shutting down and abandoning module FoliageEdit (233)
+[2017.03.18-19.04.12:245][711]LogModuleManager: Shutting down and abandoning module LandscapeEditor (232)
+[2017.03.18-19.04.12:246][711]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (231)
+[2017.03.18-19.04.12:246][711]LogModuleManager: Shutting down and abandoning module ActorPickerMode (230)
+[2017.03.18-19.04.12:246][711]LogModuleManager: Shutting down and abandoning module GeometryMode (229)
+[2017.03.18-19.04.12:246][711]LogModuleManager: Shutting down and abandoning module TextureAlignMode (228)
+[2017.03.18-19.04.12:246][711]LogModuleManager: Shutting down and abandoning module BspMode (227)
+[2017.03.18-19.04.12:247][711]LogModuleManager: Shutting down and abandoning module HardwareSurvey (226)
+[2017.03.18-19.04.12:247][711]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (225)
+[2017.03.18-19.04.12:247][711]LogModuleManager: Shutting down and abandoning module AutomationWorker (224)
+[2017.03.18-19.04.12:248][711]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (223)
+[2017.03.18-19.04.12:249][711]LogModuleManager: Shutting down and abandoning module PlacementMode (222)
+[2017.03.18-19.04.12:249][711]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (221)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (220)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (219)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (218)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (217)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module Media (216)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (215)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (214)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module CharacterAI (213)
+[2017.03.18-19.04.12:252][711]LogModuleManager: Shutting down and abandoning module SequenceRecorder (212)
+[2017.03.18-19.04.12:254][711]LogModuleManager: Shutting down and abandoning module AudioCapture (211)
+[2017.03.18-19.04.12:254][711]LogModuleManager: Shutting down and abandoning module SmartSnapping (210)
+[2017.03.18-19.04.12:254][711]LogModuleManager: Shutting down and abandoning module SessionServices (209)
+[2017.03.18-19.04.12:254][711]LogModuleManager: Shutting down and abandoning module ViewportSnapping (208)
+[2017.03.18-19.04.12:254][711]LogModuleManager: Shutting down and abandoning module ViewportInteraction (207)
+[2017.03.18-19.04.12:254][711]LogModuleManager: Shutting down and abandoning module LogVisualizer (206)
+[2017.03.18-19.04.12:256][711]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (205)
+[2017.03.18-19.04.12:258][711]LogModuleManager: Shutting down and abandoning module IntroTutorials (204)
+[2017.03.18-19.04.12:259][711]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (203)
+[2017.03.18-19.04.12:259][711]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (202)
+[2017.03.18-19.04.12:260][711]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (201)
+[2017.03.18-19.04.12:260][711]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (200)
+[2017.03.18-19.04.12:937][711]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (199)
+[2017.03.18-19.04.12:937][711]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (198)
+[2017.03.18-19.04.12:937][711]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (197)
+[2017.03.18-19.04.12:937][711]LogModuleManager: Shutting down and abandoning module InputBindingEditor (196)
+[2017.03.18-19.04.12:938][711]LogModuleManager: Shutting down and abandoning module NiagaraEditor (195)
+[2017.03.18-19.04.12:940][711]LogModuleManager: Shutting down and abandoning module MergeActors (194)
+[2017.03.18-19.04.12:941][711]LogModuleManager: Shutting down and abandoning module SizeMap (193)
+[2017.03.18-19.04.12:941][711]LogModuleManager: Shutting down and abandoning module TreeMap (192)
+[2017.03.18-19.04.12:943][711]LogModuleManager: Shutting down and abandoning module ReferenceViewer (191)
+[2017.03.18-19.04.12:943][711]LogModuleManager: Shutting down and abandoning module LocalizationService (190)
+[2017.03.18-19.04.12:943][711]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (189)
+[2017.03.18-19.04.12:945][711]LogModuleManager: Shutting down and abandoning module HardwareTargeting (188)
+[2017.03.18-19.04.12:945][711]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (187)
+[2017.03.18-19.04.12:945][711]LogModuleManager: Shutting down and abandoning module UndoHistory (186)
+[2017.03.18-19.04.12:946][711]LogModuleManager: Shutting down and abandoning module UserFeedback (185)
+[2017.03.18-19.04.12:946][711]LogModuleManager: Shutting down and abandoning module XmlParser (184)
+[2017.03.18-19.04.12:946][711]LogModuleManager: Shutting down and abandoning module Blutility (183)
+[2017.03.18-19.04.12:947][711]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (182)
+[2017.03.18-19.04.12:947][711]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (181)
+[2017.03.18-19.04.12:947][711]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (180)
+[2017.03.18-19.04.12:947][711]LogModuleManager: Shutting down and abandoning module SettingsEditor (179)
+[2017.03.18-19.04.12:949][711]LogModuleManager: Shutting down and abandoning module ProjectLauncher (178)
+[2017.03.18-19.04.12:950][711]LogModuleManager: Shutting down and abandoning module SessionFrontend (177)
+[2017.03.18-19.04.12:951][711]LogModuleManager: Shutting down and abandoning module ProfilerClient (176)
+[2017.03.18-19.04.12:952][711]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (175)
+[2017.03.18-19.04.12:952][711]LogModuleManager: Shutting down and abandoning module DeviceManager (174)
+[2017.03.18-19.04.13:005][711]LogModuleManager: Shutting down and abandoning module AutomationController (173)
+[2017.03.18-19.04.13:007][711]LogModuleManager: Shutting down and abandoning module AutomationWindow (172)
+[2017.03.18-19.04.13:008][711]LogModuleManager: Shutting down and abandoning module Layers (171)
+[2017.03.18-19.04.13:011][711]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (170)
+[2017.03.18-19.04.13:011][711]LogModuleManager: Shutting down and abandoning module DetailCustomizations (169)
+[2017.03.18-19.04.13:012][711]LogModuleManager: Shutting down and abandoning module PackagesDialog (168)
+[2017.03.18-19.04.13:014][711]LogModuleManager: Shutting down and abandoning module AnimGraph (167)
+[2017.03.18-19.04.13:014][711]LogModuleManager: Shutting down and abandoning module Persona (166)
+[2017.03.18-19.04.13:015][711]LogModuleManager: Shutting down and abandoning module Kismet (165)
+[2017.03.18-19.04.13:016][711]LogModuleManager: Shutting down and abandoning module GraphEditor (164)
+[2017.03.18-19.04.13:020][711]LogModuleManager: Shutting down and abandoning module ClassViewer (163)
+[2017.03.18-19.04.13:020][711]LogModuleManager: Shutting down and abandoning module Toolbox (162)
+[2017.03.18-19.04.13:021][711]LogModuleManager: Shutting down and abandoning module ModuleUI (161)
+[2017.03.18-19.04.13:021][711]LogModuleManager: Shutting down and abandoning module MovieSceneTools (160)
+[2017.03.18-19.04.13:023][711]LogModuleManager: Shutting down and abandoning module OutputLog (159)
+[2017.03.18-19.04.13:024][711]LogModuleManager: Shutting down and abandoning module GammaUI (158)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module Documentation (157)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module Niagara (156)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (155)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module AnalyticsET (154)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module PortalServices (153)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module PortalRpc (152)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module MessagingRpc (151)
+[2017.03.18-19.04.13:025][711]LogModuleManager: Shutting down and abandoning module GameplayDebugger (150)
+[2017.03.18-19.04.13:026][711]LogModuleManager: Shutting down and abandoning module AITestSuite (149)
+[2017.03.18-19.04.13:026][711]LogModuleManager: Shutting down and abandoning module AIModule (148)
+[2017.03.18-19.04.13:026][711]LogModuleManager: Shutting down and abandoning module ProfilerService (147)
+[2017.03.18-19.04.13:054][711]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2017.03.18-19.04.13:055][711]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.03.18-19.04.13:055][711]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.03.18-19.04.13:055][711]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.03.18-19.04.13:056][711]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.03.18-19.04.13:056][711]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.03.18-19.04.13:057][711]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.03.18-19.04.13:061][711]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.03.18-19.04.13:061][711]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.03.18-19.04.13:061][711]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.03.18-19.04.13:061][711]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.03.18-19.04.13:061][711]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.03.18-19.04.13:062][711]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.03.18-19.04.13:062][711]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.03.18-19.04.13:062][711]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.03.18-19.04.13:062][711]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.03.18-19.04.13:064][711]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.03.18-19.04.13:065][711]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.03.18-19.04.13:065][711]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.03.18-19.04.13:066][711]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.03.18-19.04.13:067][711]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.03.18-19.04.13:067][711]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.03.18-19.04.13:068][711]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.03.18-19.04.13:069][711]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.03.18-19.04.13:070][711]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.03.18-19.04.13:071][711]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.03.18-19.04.13:071][711]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.03.18-19.04.13:071][711]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.03.18-19.04.13:071][711]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.03.18-19.04.13:071][711]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.03.18-19.04.13:071][711]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.03.18-19.04.13:071][711]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Binaries/Win64' was aborted.
+[2017.03.18-19.04.13:073][711]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.03.18-19.04.13:073][711]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.03.18-19.04.13:074][711]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.03.18-19.04.13:076][711]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.03.18-19.04.13:077][711]LogModuleManager: Shutting down and abandoning module BuildingEscape (104)
+[2017.03.18-19.04.13:077][711]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.03.18-19.04.13:178][711]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.03.18-19.04.13:278][711]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.03.18-19.04.13:278][711]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.03.18-19.04.13:278][711]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.03.18-19.04.13:279][711]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.03.18-19.04.13:280][711]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.03.18-19.04.13:280][711]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.03.18-19.04.13:280][711]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.03.18-19.04.13:280][711]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.03.18-19.04.13:280][711]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.03.18-19.04.13:280][711]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.03.18-19.04.13:282][711]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.03.18-19.04.13:283][711]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.03.18-19.04.13:284][711]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.03.18-19.04.13:286][711]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.03.18-19.04.13:286][711]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.03.18-19.04.13:287][711]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.03.18-19.04.13:290][711]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.03.18-19.04.13:292][711]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.03.18-19.04.13:293][711]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.03.18-19.04.13:296][711]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.03.18-19.04.13:296][711]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.03.18-19.04.13:299][711]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.03.18-19.04.13:299][711]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.03.18-19.04.13:299][711]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.03.18-19.04.13:299][711]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.03.18-19.04.13:299][711]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.03.18-19.04.13:299][711]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.03.18-19.04.13:299][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.18-19.04.13:299][711]LogDirectoryWatcher: A directory notification for 'E:/UE4-Course/UE4-COURSE/BuildingEscape/Content/' was aborted.
+[2017.03.18-19.04.13:300][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.18-19.04.13:303][711]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.03.18-19.04.13:447][711]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.03.18-19.04.13:447][711]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.03.18-19.04.13:447][711]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.03.18-19.04.13:448][711]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.03.18-19.04.13:448][711]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.03.18-19.04.13:449][711]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.03.18-19.04.13:450][711]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.03.18-19.04.13:451][711]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.03.18-19.04.13:534][711]LogDerivedDataCache: Shutdown
+[2017.03.18-19.04.13:535][711]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.03.18-19.04.13:535][711]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.03.18-19.04.13:536][711]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.03.18-19.04.13:537][711]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.03.18-19.04.13:538][711]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.03.18-19.04.13:538][711]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.03.18-19.04.13:538][711]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.03.18-19.04.13:538][711]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.03.18-19.04.13:543][711]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.03.18-19.04.13:543][711]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.03.18-19.04.13:543][711]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.03.18-19.04.13:543][711]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.03.18-19.04.13:544][711]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.03.18-19.04.13:544][711]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.03.18-19.04.13:544][711]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.03.18-19.04.13:544][711]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.03.18-19.04.13:544][711]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.03.18-19.04.13:545][711]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.03.18-19.04.13:546][711]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.03.18-19.04.13:547][711]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.03.18-19.04.13:547][711]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.03.18-19.04.13:547][711]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.18-19.04.13:547][711]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.18-19.04.13:548][711]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.18-19.04.13:550][711]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.18-19.04.13:550][711]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.18-19.04.13:552][711]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.18-19.04.13:554][711]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.18-19.04.13:554][711]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.18-19.04.13:554][711]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.18-19.04.13:557][711]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.18-19.04.13:558][711]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.18-19.04.13:558][711]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.18-19.04.13:559][711]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.18-19.04.13:560][711]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.18-19.04.13:560][711]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.18-19.04.13:560][711]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.18-19.04.13:560][711]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.18-19.04.13:560][711]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.18-19.04.13:560][711]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.18-19.04.13:563][711]LogExit: Exiting.
+[2017.03.18-19.04.13:571][711]Log file closed, 03/18/17 19:04:13
