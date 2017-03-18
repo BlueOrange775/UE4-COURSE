@@ -14,12 +14,7 @@ UOpenDoor::UOpenDoor()
 	// ...
 }
 
-
-// Called when the game starts
-void UOpenDoor::BeginPlay()
-{
-	Super::BeginPlay();
-
+void UOpenDoor::OpenDoor() {
 	// Find the owning actor
 	AActor* Owner = GetOwner();
 	
@@ -28,7 +23,14 @@ void UOpenDoor::BeginPlay()
 
 	// set the door rotation
 	Owner->SetActorRotation(NewRotation);
+}
 
+// Called when the game starts
+void UOpenDoor::BeginPlay()
+{
+	Super::BeginPlay();
+
+	ActorThatOpens = GetWorld()->GetFirstPlayerController()->GetPawn();
 }
 
 
@@ -37,6 +39,10 @@ void UOpenDoor::TickComponent( float DeltaTime, ELevelTick TickType, FActorCompo
 {
 	Super::TickComponent( DeltaTime, TickType, ThisTickFunction );
 
-	// ...
+	// Poll the Trigger Volume every frame
+	// if the ActorThatOpens is in the volume
+	if (PressurePlate->IsOverlappingActor(ActorThatOpens)) {
+		OpenDoor();
+	}
 }
 

@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
 	{
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 1487163570);
+	IMPLEMENT_CLASS(UOpenDoor, 1857292882);
 	void UPositionReport::StaticRegisterNativesUPositionReport()
 	{
 	}
@@ -26,6 +26,7 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 	ENGINE_API class UClass* Z_Construct_UClass_UActorComponent();
+	ENGINE_API class UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_ABuildingEscapeGameModeBase_NoRegister();
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_ABuildingEscapeGameModeBase();
@@ -85,6 +86,10 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 				OuterClass->ClassFlags |= 0x20B00080;
 
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_PressurePlate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PressurePlate"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PressurePlate, UOpenDoor), 0x0040000000000001, Z_Construct_UClass_ATriggerVolume_NoRegister());
+				UProperty* NewProp_OpenAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OpenAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(OpenAngle, UOpenDoor), 0x0040000000020001);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -92,6 +97,10 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_PressurePlate, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_PressurePlate, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_OpenAngle, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_OpenAngle, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
 #endif
 			}
 		}
@@ -141,7 +150,7 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/BuildingEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x41A2F2C6;
+			Guid.A = 0xBEC5F782;
 			Guid.B = 0x23841B22;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
