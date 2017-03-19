@@ -14,6 +14,10 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 	{
 	}
 	IMPLEMENT_CLASS(ABuildingEscapeGameModeBase, 4248609648);
+	void UGrabber::StaticRegisterNativesUGrabber()
+	{
+	}
+	IMPLEMENT_CLASS(UGrabber, 445687644);
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
 	{
 	}
@@ -30,6 +34,8 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_ABuildingEscapeGameModeBase_NoRegister();
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_ABuildingEscapeGameModeBase();
+	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_UGrabber_NoRegister();
+	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_UGrabber();
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_UOpenDoor_NoRegister();
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_UOpenDoor();
 	BUILDINGESCAPE_API class UClass* Z_Construct_UClass_UPositionReport_NoRegister();
@@ -68,6 +74,39 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABuildingEscapeGameModeBase(Z_Construct_UClass_ABuildingEscapeGameModeBase, &ABuildingEscapeGameModeBase::StaticClass, TEXT("ABuildingEscapeGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABuildingEscapeGameModeBase);
+	UClass* Z_Construct_UClass_UGrabber_NoRegister()
+	{
+		return UGrabber::StaticClass();
+	}
+	UClass* Z_Construct_UClass_UGrabber()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_UActorComponent();
+			Z_Construct_UPackage__Script_BuildingEscape();
+			OuterClass = UGrabber::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20B00080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintSpawnableComponent"), TEXT(""));
+				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Grabber.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Grabber.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UGrabber(Z_Construct_UClass_UGrabber, &UGrabber::StaticClass, TEXT("UGrabber"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UGrabber);
 	UClass* Z_Construct_UClass_UOpenDoor_NoRegister()
 	{
 		return UOpenDoor::StaticClass();
@@ -153,8 +192,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/BuildingEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x789B184B;
-			Guid.B = 0x23841B22;
+			Guid.A = 0xE17E7BBB;
+			Guid.B = 0x8FA253A2;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
