@@ -16,6 +16,7 @@ public:
 	UOpenDoor();
 	void OpenDoor();
 	void CloseDoor();
+	float GetTotalMassOnPlate();
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -27,9 +28,9 @@ private:
 	UPROPERTY(EditAnywhere) float OpenAngle = 80.0f;
 	UPROPERTY(EditAnywhere) ATriggerVolume* PressurePlate;
 	UPROPERTY(EditAnywhere) float DoorCloseDelay = 1.f;
+	UPROPERTY(EditAnywhere) float TriggerMass = 40.f;
 
 	float LastDoorOpenTime;
 
-	AActor* ActorThatOpens;
 	AActor* Owner; // The owning door
 };

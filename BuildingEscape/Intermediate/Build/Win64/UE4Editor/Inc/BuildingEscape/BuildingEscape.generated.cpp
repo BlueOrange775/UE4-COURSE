@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
 	{
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 3442869915);
+	IMPLEMENT_CLASS(UOpenDoor, 2979810346);
 	void UPositionReport::StaticRegisterNativesUPositionReport()
 	{
 	}
@@ -126,6 +126,7 @@ void EmptyLinkFunctionForGeneratedCode1BuildingEscape() {}
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_TriggerMass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("TriggerMass"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(TriggerMass, UOpenDoor), 0x0040000000000001);
 				UProperty* NewProp_DoorCloseDelay = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("DoorCloseDelay"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(DoorCloseDelay, UOpenDoor), 0x0040000000000001);
 				UProperty* NewProp_PressurePlate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("PressurePlate"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(PressurePlate, UOpenDoor), 0x0040000000000001, Z_Construct_UClass_ATriggerVolume_NoRegister());
 				UProperty* NewProp_OpenAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("OpenAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(OpenAngle, UOpenDoor), 0x0040000000000001);
@@ -137,6 +138,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_TriggerMass, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_TriggerMass, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(NewProp_DoorCloseDelay, TEXT("Category"), TEXT("OpenDoor"));
 				MetaData->SetValue(NewProp_DoorCloseDelay, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(NewProp_PressurePlate, TEXT("Category"), TEXT("OpenDoor"));
@@ -192,7 +195,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/BuildingEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xE17E7BBB;
+			Guid.A = 0x9003FBC4;
 			Guid.B = 0x8FA253A2;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
